@@ -1,0 +1,9 @@
+RewriteCond %{HTTP_HOST} ^www.midominio.es$ [NC]
+RewriteRule ^(.*)$ http://www.midominio.com/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^midominio.es$ [NC]
+RewriteRule ^(.*)$ http://www.midominio.com/ [R=301,L]
+ 
+RewriteCond %{HTTP_HOST} ^www.midominio.net$ [NC]
+RewriteRule ^(.*)$ http://www.midominio.com/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^midominio.net$ [NC]
+RewriteRule ^(.*)$ http://www.midominio.com/ [R=301,L]
